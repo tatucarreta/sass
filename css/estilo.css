@@ -1,0 +1,90 @@
+body {
+  background-color: #0cbaba;
+  background-image: linear-gradient(315deg, #0cbaba 0%, #380036 74%);
+}
+
+header h1 {
+  text-align: center;
+  font-family: 'Gill Sans', 'Gill Sans MT', Calibri, 'Trebuchet MS', sans-serif;
+  font-size: 2rem;
+  font-weight: 3px;
+}
+
+header .nav {
+  width: 400px;
+  background-color: green;
+  margin: 10px auto;
+}
+
+header .nav .menu {
+  list-style-type: none;
+  padding: 15px;
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  -webkit-box-orient: horizontal;
+  -webkit-box-direction: normal;
+      -ms-flex-direction: row;
+          flex-direction: row;
+  -webkit-box-pack: center;
+      -ms-flex-pack: center;
+          justify-content: center;
+}
+
+header .nav .menu .boton {
+  padding: 10px;
+  margin: 10px;
+}
+
+header .nav .menu .boton:hover {
+  background-color: #022b02;
+  border-radius: 20%;
+}
+
+header .nav .menu .boton:hover a {
+  text-decoration: none;
+  color: bisque;
+}
+
+header .nav .menu .boton:hover a:hover {
+  font-weight: bold;
+}
+
+main h2 {
+  text-align: right;
+  font-family: cursive;
+  font-weight: 3px;
+}
+
+main h2 .parrafo p {
+  font-family: 'Times New Roman', Times, serif;
+  font-size: 3rem;
+  color: brown;
+}
+
+main h2 .parrafo p .lista {
+  list-style-type: square;
+  padding: 15px;
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  -webkit-box-orient: vertical;
+  -webkit-box-direction: normal;
+      -ms-flex-direction: column;
+          flex-direction: column;
+  -webkit-box-pack: center;
+      -ms-flex-pack: center;
+          justify-content: center;
+  text-align: center;
+}
+
+footer {
+  background-color: #a7af32;
+  padding: 5px;
+}
+
+footer h2 {
+  text-align: center;
+  color: cadetblue;
+}
+/*# sourceMappingURL=estilo.css.map */
